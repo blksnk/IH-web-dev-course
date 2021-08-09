@@ -1,7 +1,6 @@
 # Design Implementation
 
 ## Introduction
----
 
 Dans ce module, nous allons apprendre comment optimiser et coder vos designs afin de faciliter leur implémentation.
 
@@ -11,7 +10,6 @@ Designer les pages et composants d'un projet (site ou application) n'est que la 
 Pouvoir travailler et communiquer avec les développeurs vous permettra de produire et concrétiser un projet plus efficacement.
 
 ## Internet: Principes de base
----
 
 Internet, et le protocole HTTP (HyperText Transfer Protocol) sont basés sur deux acteurs: le client et le serveur.
 
@@ -31,7 +29,6 @@ Le serveur attend la demande du client et lui répond avec le contenu désiré (
 Si le client ne répond pas aux exigences du serveur, il se verra renvoyé un code d'erreur, souvent accompagné d'un message détaillant la nature de ladite erreur.
 
 ## L'architecture
----
 
 Coder une page web revient à maîtriser 3 aspects, et donc 3 langages:
 
@@ -44,7 +41,6 @@ Coder une page web revient à maîtriser 3 aspects, et donc 3 langages:
 *Nous allons nous concentrer sur le contenu (HTML) et le style (CSS), mais gardez à l'esprit que la logique (Javascript) joue aussi un rôle important dans la création d'un site web.*
 
 ## Mise en place de l'environnement
----
 
 Avant de commencer votre apprentissage du développement web, vous aurez besoin de quelques outils pour vous faciliter la vie.
 
@@ -74,7 +70,6 @@ Savoir bien développer veut aussi dire savoir bien chercher. Personne ne conna�
 
 
 ## Vous inspirer
----
 
 Vous connaissez déjà sûrement [Dribbble](https://www.dribbble.com) et [Behance](https://behance.net), d'excellentes ressources pour vous inspirer lors de la création de projets en design.
 
