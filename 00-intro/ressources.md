@@ -5,7 +5,7 @@
 
 Dans ce module, nous allons apprendre comment optimiser et coder vos designs afin de faciliter leur implémentation.
 
-Designer les pages et composants d'un projet (site ou application) n'est que la promière étape dans la production de ce dernier. Un fois l'étude UX faite et les maquettes UI finalisées, il est temps de les donner aux développeurs, qui se chargerons de les implémenter, c'est-à-dire de les coder sous forme de page web accessible et interactive.
+Designer les pages et composants d'un projet (site ou application) n'est que la première étape dans la production de ce dernier. Un fois l'étude UX faite et les maquettes UI finalisées, il est temps de les donner aux développeurs, qui se chargerons de les implémenter, c'est-à-dire de les coder sous forme de page web, accessible et interactive.
 
 **Savoir coder est une compétence très recherchée chez un designer.**
 Pouvoir travailler et communiquer avec les développeurs vous permettra de produire et concrétiser un projet plus efficacement.
@@ -19,8 +19,9 @@ Internet, et le protocole HTTP (HyperText Transfer Protocol) sont basés sur deu
 
 Le client c'est vous, où plus précisément votre navigateur (Chrome, Safari, Firefox, etc...), qui demande au serveur à voir une page web, ou tout autre contenu.
 
-La demande du client peut ne pas aboutir si ce dernier ne répond si ci dernier ne répond pas à certaines exigences:
-- Est-il autentifié (connecté à un compte) ?
+La demande du client peut ne pas aboutir si ce dernier ne répond pas à certaines exigences, par exemple:
+
+- Est-il authentifié (connecté à un compte) ?
 - A-t-il accès au contenu demandé (ex: Google Doc privé)
 
 ### **Le serveur**
