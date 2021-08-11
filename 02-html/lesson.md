@@ -44,7 +44,7 @@ Chaque node peut contenir d'autres nodes, appelés **enfants**, et être elle-m�
 
 Le contenu d'une page web prend une structure similaire aux branches d'un arbre.
 
-*On appelle cette structre le **DOM Tree**.*
+*On appelle cette structure le **DOM Tree**.*
 
 ![Dom tree](https://www.codeguage.com/Images/js/tree.png)
 
