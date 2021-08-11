@@ -140,7 +140,9 @@ ce qui donne:
 
 ### Indentation
 
-Indenter son code revient à en déplacer des morceaux vers la gauche afin de les séparer visuellement du reste et ainsi d'illustrer la hiérarchie de ces derniers.
+Indenter son code revient à en déplacer des morceaux vers la droite afin de les séparer visuellement du reste et ainsi d'illustrer la hiérarchie de ces derniers.
+
+Pour ce faire, on utilise généralement la touche **`Tab`**  située à gauche du clavier, au dessus de la touche `Verr. Maj`.
 
 > Imbriquer et indenter le contenu de notre page web augmente sa lisibilité et son accessibilité.
 
