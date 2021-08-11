@@ -13,6 +13,8 @@
 		- [Les attributs](#les-attributs)
 	- [Imbrication](#imbrication)
 		- [Grouper des éléments](#grouper-des-éléments)
+		- [Indentation](#indentation)
+- [Bravo!](#bravo)
 
 
 ## Introduction
@@ -133,4 +135,45 @@ ce qui donne:
 
 *Panda qui tombe*
 
-> Imbriquer le contenu de notre page web augmente sa lisibilité et simplifie son affichage par les navigateurs.
+### Indentation
+
+Indenter son code revient à en déplacer des morceaux vers la gauche afin de les séparer visuellement du reste et ainsi d'illustrer la hiérarchie de ces derniers.
+
+> Imbriquer et indenter le contenu de notre page web augmente sa lisibilité et son accessibilité.
+
+En règle générale, **plus un élément est situé profondément dans DOM Tree, plus il sera indenté**.
+
+```
+<body>
+	<header>
+		<nav>
+			<img src="logo" alt="logo"/>
+			<strong>
+				Nom du site
+			</strong>
+		</nav>
+	</header>
+
+	<main>
+		<h1>Titre de la page</h1>
+
+		<section>
+			<img src="..." alt="nom de l'image">
+			<p>
+				Lorem ipsum dolor sit et.
+			</p>
+		<section>
+	</main>
+
+	<footer>
+		<p>Crédits</p>
+	</footer>
+</body>
+```
+
+*Ici, on peut facilement voire la séparation entre nos différents élements et leur contenu.*
+
+# Bravo!
+
+Félicitations, vous êtes arrivé à bout de cette leçon. 
+Maintenant, place à la pratique !
