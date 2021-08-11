@@ -58,7 +58,7 @@ La plupart des tags vont par paire. Le premier - *opening tag* - ouvre l'élemen
 
 ![paragraph tag](https://clearlydecoded.com/assets/images/posts/2017-09-04-anatomy-of-html-tag/simple-p-tag.png)
 
-Ainsi, pour placer un paragraphe dans un fichier HTML, on doit d'abord ouvrir avec le tag **`<p>`**, puis rajouter notre texte, puis fermet le tout avec le tag **`</p>`**.
+Ainsi, pour placer un paragraphe dans un fichier HTML, on doit d'abord ouvrir avec le tag **`<p>`**, puis rajouter notre texte, puis fermer le tout avec le tag **`</p>`**.
 
 En pratique, le code ressemble à ceci:
 
@@ -92,9 +92,9 @@ Le langage HTML comporte une multitude de tags, chacun avec son utilité. Voici 
 
 Certains tags ne nécessitent pas d'être fermés, et ne vont donc pas par paire. On les appelle les **Self closing tags**.
 
-On compte parmis ces derniers les tags `<img/>`, `<video/>` et `<input/>`, respectivements utiliser pour afficher des images, des vidéos et des entrées de texte.
+On compte parmis ces derniers les tags `<img/>`, `<video/>` et `<input/>`, respectivements utilisés pour afficher des images, des vidéos et des entrées de texte.
 
-Ainsi, pour afficher une entrée de texte, on écrira:
+Ainsi, pour ajouter une entrée de texte à notre page, on écrira:
 
 ```
 <input type="text" />
@@ -104,10 +104,12 @@ Ainsi, pour afficher une entrée de texte, on écrira:
 
 ### Les attributs
 
-Certains tags ne se suffisent pas à eux-mêmes, et ont besoin d'information supplémentaire afin de fonctionner correctement. Les **attributs** permettent de renseigner ces informations.
+Certains tags ne se suffisent pas à eux-mêmes, et ont besoin d'informations supplémentaires afin de fonctionner correctement. Les **attributs** permettent de renseigner ces informations.
+
+![attributs](https://clearlydecoded.com/assets/images/posts/2017-09-04-anatomy-of-html-tag/html-tag-attributes.png)
 
 Prenons un exemple concret: on veut placer une image dans notre page web. Pour cela, nous sommes contraints de renseigner le lien vers cette image.
-On rajoutera donc deux attributs à l'image afin de spécifier sa **source** et lui donner un **nom** au cas où elle ne chargerait pas.
+On rajoutera alors deux attributs à l'image afin de spécifier sa **source** et lui donner un **nom** au cas où elle ne chargerait pas.
 
 ```
 <img src="https://i.pinimg.com/originals/9e/e2/b4/9ee2b4b4b2df0b00773f83923bcf3bad.jpg" alt="panda qui tombe"/>
