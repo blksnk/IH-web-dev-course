@@ -1,7 +1,8 @@
-# HTML
+# HTML Basics
 
 ## Sommaire
-- [HTML](#html)
+
+- [HTML Basics](#html-basics)
 	- [Sommaire](#sommaire)
 	- [Introduction](#introduction)
 	- [HTML, c'est quoi ?](#html-cest-quoi-)
@@ -121,7 +122,7 @@ devient:
 
 Nous l'avons vu plus haut, une page HTML est composée de parents et d'enfants.
 
-En pratique, **un tag peut en contenir d'autres**, on peut donc grouper plusieurs éléments ensemble. Ainsi, afin de donner un titre à notre image de panda, nous écrirons:
+En pratique, **un tag peut en contenir d'autres**, on peut donc grouper plusieurs éléments ensemble. Ainsi, afin de donner un sous-titre à notre image de panda, nous écrirons:
 
 ```
 <figure>
