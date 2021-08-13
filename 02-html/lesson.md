@@ -10,6 +10,8 @@
 	- [Les tags](#les-tags)
 		- [Principe](#principe)
 		- [Liste des tags](#liste-des-tags)
+			- [Tags de contenu & style](#tags-de-contenu--style)
+			- [Tags de mise en page & hiérarchie](#tags-de-mise-en-page--hiérarchie)
 		- [Self closing tags](#self-closing-tags)
 		- [Les attributs](#les-attributs)
 	- [Imbrication](#imbrication)
@@ -73,6 +75,8 @@ En pratique, le code ressemble à ceci:
 
 Le langage HTML comporte une multitude de tags, chacun avec son utilité. Voici les plus courants, que nous serons amenés à employer:
 
+#### Tags de contenu & style
+
 | Tag  | Description | Exemple | Rendu |
 | :--- | :---        | :---    | :---  | 
 | `<h1>` | Titre 1 | `<h1>Je suis le plus grand titre</h1>` | <h1>Je suis le plus grand titre</h1> |
@@ -87,6 +91,15 @@ Le langage HTML comporte une multitude de tags, chacun avec son utilité. Voici 
 | `<em>` | Emphase | `<em>Je suis un texte en italique</em>` | <em>Je suis un texte en italique</em> |
 | `<strong>` | Gras | `<strong>Je suis un texte en gras</strong>` | <strong>Je suis un texte en gras</strong> |
 | `<q>` | Citation | `<q>Je suis une citation</q>` | <q>Je suis une citation</q> |
+
+#### Tags de mise en page & hiérarchie
+
+| Tag     | Description        | Exemple |
+| :---    | :---               | :---    |
+| `<main>` | Contenu principal | `<main>contenu</main>` |
+| `<section>` | Section ou sous-section | `<section>contenu</section>` |
+| `<article>` | Element répété (ex: post instagram) | `<article>contenu</article>` |
+| `<div>` | Conteneur générique, utilisé pour grouper des éléments | `<div>contenu</div>`
 
 ### Self closing tags
 
