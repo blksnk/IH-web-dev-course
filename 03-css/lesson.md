@@ -45,11 +45,12 @@
 			- [Inline](#inline)
 			- [Block](#block)
 		- [Le Box Model](#le-box-model)
-			- [Les Marges extérieures: les margins](#les-marges-extérieures-les-margins)
-			- [Les bords](#les-bords)
+			- [Les marges extérieures: les margins](#les-marges-extérieures-les-margins)
+			- [Le bord](#le-bord)
 			- [Les marges intérieures: le padding](#les-marges-intérieures-le-padding)
 		- [Layouts avancés](#layouts-avancés)
 			- [Flexbox](#flexbox)
+				- [Row ou Column](#row-ou-column)
 			- [Grid](#grid)
 
 ## Introduction
@@ -591,16 +592,103 @@ Pour forcer un élément à se placer sur une nouvelle ligne, on écrira:
 
 ### Le Box Model
 
+Dans HTML et CSS, on peut penser à **chaque élément comme étant une *boîte rectangulaire***.
+
+Cette boîte est régie par le **CSS Box Model**, et contient plusieurs propriétés que nous pouvons ajuster afin d'obtenir l'apparence désirée.
+
 ![Box Model](https://www.lilengine.co/sites/default/files/inline-images/Screen%20Shot%202019-04-14%20at%2023.59.07.png)
 
-#### Les Marges extérieures: les margins
+#### Les marges extérieures: les margins
 
-#### Les bords
+Les marges, appelées `margins`, permettent d'espacer notre élément des autres. Elles **entourent** le bord de notre élément et sont **transparentes**.
+
+Il est possible de définir les marges tout autour de notre élément en même temps, ou de les choisir individuellement pour chaque côté (`margin-top`, `margin-bottom`, `margin-left`, `margin-right`).
+
+*Marges égales sur tous les côtes*
+```
+#boite {
+	margin: 40px;
+}
+```
+
+*Marges individuelles*
+```
+#boite {
+	margin-top: 20px;
+	margin-bottom: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+```
+
+#### Le bord
+
+Les bord, appelé `border` d'un élément est opaque. Il entoure le contenu de l'élément et permet de le séparer visuellement du reste de notre page.
+
+On définit le bord en lui donnant 3 valeurs:
+- **Epaisseur**: définit si le bord est fin ou épais.
+- **Apparence**: définit l'aspect du bord: `solid`, `dashed`, `dotted`.
+- **Couleur**: définit la teinte du bord: couleur ou dégradé.
+
+Il est aussi possible de définir le bord de chaque côté indivuellement, à l'aide des propriétés `border-top`, `border-bottom`, `border-left`, `border-right`.
+
+> Pour cacher le bord d'un élément, on utilise la déclaration: `border: none`.
+
+```
+#boite-1 {
+	border: 20px solid #212121;
+
+	border-bottom: 60px solid red;
+	border-left: 30px solid linear-gradient(to bottom left, blue, purple);
+	border-right: 30px solid rgba(10, 10, 10, 0.2);
+}
+```
 
 #### Les marges intérieures: le padding
 
+Le `padding` définit l'espacement intérieur entre les bords de l'élément et son contenu. Il prend la couleur d'arrière-plan de l'élément.
+
+Comme pour les marges et le bord, on peut aussi le définir un côté à la fois, et ce à l'aide des propriétés `padding-top`, `padding-bottom`, `padding-left`, `padding-right`.
+
+```
+#boite {
+	padding: 20px;
+
+	padding-bottom: 20%;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+```
+
+> Attention, par défaut, CSS **ne prend pas en compte le padding** dans le calcul de la taille d'un élément. Un élément ayant `width: 200px` et un `padding: 20px` fera 240px de large.
+
 ### Layouts avancés
+
+Pour certains designs répandus dans le web actuel, mettre en place des élément en jouant seulement sur *Inline / Block* peut être restrictif, voire impossible.
+
+CSS nous offrent des methodes alternatives pour disposer nos éléments. Nous verrons les deux plus répandues: **Flexbox** et **Grid**.
 
 #### Flexbox
 
+Si vous utilisez Figma, vous aurez sûrment eu l'occasion de travailler avec l'*Auto Layout*, une fonctionnalité permettant d'aligner nos éléments verticalement et/ou horizontalement sur un ou deux axes.
+
+![auto layout](autolayout.png)
+
+**Flexbox**, qu'on utilise grâce à la déclaration `display: flex`, nous permet de reproduire le même fonctionnement avec CSS.
+
+
+> On utilise flexbox sur le parent des éléménts que l'on souhaite aligner.
+
+*Appliquer flexbox à un élément*
+```
+.flex {
+	display: flex;
+}
+```
+
+[Explication détaillée de Flexbox (en Anglais)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+##### Row ou Column
+
+Flexbox permet de disposer nos éléments en lignes (`row`) ou en colonnes
 #### Grid
