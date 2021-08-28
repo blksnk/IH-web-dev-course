@@ -1,0 +1,205 @@
+
+
+
+/*****************************************************************/
+/*                      Page musique.html                        */
+/*****************************************************************/
+
+.musique {
+  background-color:#81151A;
+  padding: 0px;
+  overflow: hidden;
+  background-image: url('./icone.svg');
+  background-repeat: no-repeat;
+  background-size:  50% auto;
+  background-position: 0% 0%;
+  padding: 0 80px;
+}
+
+
+/*****************************************************************/
+/*                       BARRE DE NAVIGATION                     */
+/*****************************************************************/
+
+* {
+  /* outline: 1px solid blue; */
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 2.5vw;
+}
+
+#navmenu a{
+  padding: 15px;
+  font-family: Abril Fatface;
+  font-size: 21px;
+  color: #F6C971 ;
+  text-decoration: none;
+  /*border: 2px solid white;*/     
+  border-bottom: 2px solid transparent ;
+
+}
+
+/*****************************************************************/
+/*                          BOUTON HOVER                         */
+/*****************************************************************/
+
+#navmenu a:hover{
+  background-color: #F6C971; /* jaune */
+  border: none;
+  color: white;
+  
+  text-decoration: none;
+  object-position: center;
+
+}
+
+
+.active {
+  border-color: #F6C971 !important;
+}
+
+
+/*****************************************************************/
+/*                       TITRE ET PARAGRAPHE                     */
+/*****************************************************************/
+
+#titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: min-content;
+  margin-left: 20vw;
+}
+
+#title{
+  color: #F6C971;
+  font-family: Park Lane NF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 74px;
+}
+  
+#titleh4{
+  color: #FEFEFE;
+  font-family: Abril Fatface;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+
+p{
+  padding:10px;
+  
+  font-family: Kreon;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 21px;
+  line-height: 150.5%;
+  color:#F6C971;
+}
+/*****************************************************************/
+/*                           LA PHOTO                            */
+/*****************************************************************/
+
+#lyrics-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#lyrics-container > p {
+  margin-top: 30px;
+}
+
+#lyrics-container img {
+  width: 35vw;
+  height: 348px;
+  object-fit: cover;
+}
+
+#lyric-vertical{
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+
+  margin-right: -10px;
+
+  Font-family: Abril Fatface;
+  Font-size: 36px;
+  color: #F6C971;
+}
+
+#lyric-big{
+  height: 100px;
+
+  font-family: Abril Fatface;
+  font-size: 96px;
+  color: #F6C971;
+  z-index:2;
+
+}
+
+/*****************************************************************/
+/*                           SLIDER                              */
+/*****************************************************************/
+
+/* SLIDER PAGE  LES ICONES*/
+.sliderbar img {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 24px;
+  height: 24px;
+  left: 748px;
+  top: 820px;
+
+ 
+}
+
+
+.slider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 303px;
+  height: 24px;
+  left: 748px;
+  top: 740px;
+}
+
+.slider ul {
+display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.slider ul li {
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+width: 15px;
+height: 15px;
+  margin: 10px;
+
+  border-radius: 10px;
+  border: 1px solid #F6C971;
+  box-sizing: border-box; 
+cursor: pointer;
+  
+}

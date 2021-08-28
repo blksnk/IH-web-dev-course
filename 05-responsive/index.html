@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>KANDYTOWN</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/icons/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/icons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="border">
+
+  <div id="cursor" class="fixed"></div>
+
+  <main class="flex row full-h">
+    <section class="flex column border third-w" id="left">
+      <div class="fill masked grow-1 padding" id='logo'>
+        <img src="./assets/svg/kandytown.svg" alt="" class="full-w">
+      </div>
+
+      <div class="flex grow-2 column padding border gap j-start">
+        <p>kandytown is a japanese rap group originating from tokyo, japan.</p>
+        <p>the 12 man team started off small but gradually gained a following in japan and worldwide.</p>
+        <p>kandytown for life.</p>
+      </div>
+
+      <div class="flex grow-1 row border" id='left-bottom'>
+        <div class="flex grow-1 padding border a-center">
+          <img src="./assets/svg/dot.svg" id="dot" alt="">
+        </div>
+        <div class="flex grow-1 padding border a-center">
+          <span>since 2012</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex column grow-1 border third-w" id='center'>
+      <div class="flex between column grow-1 half-h padding border" id="members">
+        <div class="flex row between">
+          <span>bsc</span>
+          <span>dj masato</span>
+          <span>dj weelow</span>
+        </div>
+
+        <div class="flex row between">
+          <span>dj minnesotah</span>
+          <span>dian</span>
+        </div>
+
+        <div class="flex row between">
+          <span>dony joint</span>
+          <span>gottz</span>
+          <span>holly q</span>
+        </div>
+
+        <div class="flex row between">
+          <span>gottz</span>
+          <span>io</span>
+          <span>keiju</span>
+        </div>
+
+        <div class="flex row between">
+          <span>kikumaru</span>
+          <span>miki</span>
+          <span>mud</span>
+        </div>
+
+        <div class="flex row between">
+          <span>neetz</span>
+          <span>ryohu</span>
+          <span>yushi</span>
+        </div>
+      </div>
+
+      <div class='fill masked grow-1 half-h padding' id='world'>
+        <img src="./assets/svg/world.svg" alt="">
+      </div>
+    </section>
+
+    <section class="flex column grow-1 border third-w" id='right'>
+      <div class="flex row">
+        <div class="flex grow-1 padding border a-center">
+          <a href="/life">life</a>
+        </div>
+
+        <div class="flex grow-1 padding border a-center">
+          <a href="/tour">tour</a>
+        </div>
+      </div>
+
+      <div class="flex grow-2 column gap between padding border a-center">
+        <img src="./assets/svg/circles.svg" id="circles" alt="">
+
+        <button id='player-btn' class="relative">
+          <img src="./assets/svg/moon.svg" alt="" id='moon' class="absolute">
+          <img src="./assets/svg/play.svg" alt="" id='play' class="absolute">
+        </button>
+
+        <div class="flex row gap hidden" id='ticker'>
+          <span class="hidden nowrap">local area (gottz, neetz & keiju)</span>
+        </div>
+      </div>
+
+      <div class="flex grow-1 row border full-w">
+        <div class="flex column around grow-1 padding border a-center half-w" id="links">
+          <a href="">spotify</a>
+          <a href="">apl music</a>
+          <a href="">youtube</a>
+        </div>
+
+        <div class="fill masked grow-1 half-w" id="oblique"></div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./audio.js"></script>
+  <script type="module" src="./cursor.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.home h1 {
+  margin-left: 80px;
+}
+
+
+.home {
+  width: 100%;
+  /* height: 900px; */
+  background-color:#81151A;
+  padding: 0px;
+  margin: 0px;
+  background-attachment: fixed;
+  background-image: url("https://cdn.radiofrance.fr/s3/cruiser-production/2016/09/2a4ace90-b588-4ed2-8e45-5357948ee2f9/1136_c1-josephine-baker.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+
+#navbar a {
+  color:#81151A ;
+  font-family:'Abril Fatface', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px ;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*              lien home               */
+
+#nav1 {
+  position: absolute;
+  left: 80px;
+  bottom: 56px;
+  line-height: 40px;
+}
+
+/*              lien musique               */
+
+#nav2 {
+  position: absolute;
+  left: 80px;
+  top: 300px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  line-height: 40px;
+
+}
+
+/*              lien bio               */
+
+#nav3{
+  position: absolute;
+  right: 80px;
+  bottom: 52px;
+}
+
+/************** lien a propos **************/
+
+#nav4{
+  position: absolute;
+  right: 80px;
+  top: 201px;
+  writing-mode: vertical-lr;
+  line-height: 40px;
+}
+
+
+/*****************************************************************/
+/*                          BOUTON HOVER                         */
+/*****************************************************************/
+
+#navbar a:hover{
+  background-color: #81151A; bordeaux
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 15px;
+  
+
+}
+
